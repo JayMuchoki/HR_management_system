@@ -1,0 +1,82 @@
+.loginpage{
+    background: url('../assets/images/RMbg.jpg');
+    background: linear-gradient(rgba(11,11,11,0.5),rgba(10,10,10,0.5)),url('../assets/images/RMbg.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 120%;
+}
+.loginform{
+    color: white;
+    background-color: rgba(1,32,93,0.6);
+}
+.employee_image{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+.adminimage {
+    width: 200px;
+    height: 150px;
+    object-fit: cover;
+  }
+
+
+  .bg-lightblue {
+    background-color: #f0f8ff;
+  }
+  
+  
+  
+  .shadow-sm {
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1) !important;
+  }
+  
+  .font-italic {
+    font-family: 'Playfair Display', serif;
+  }
+  
+  .text-primary {
+    color: #007bff !important;
+  }
+  
+  .text-secondary {
+    color: #6c757d !important;
+  }
+  
+  .text-success {
+    color: #28a745 !important;
+  }
+  
+  .text-info {
+    color: #17a2b8 !important;
+  }
+  
+  .text-dark {
+    color: #343a40 !important;
+  }
+  
+  .text-muted {
+    color: #6c757d !important;
+  }
+  
+
+  .status-button {
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+    border: none;
+    color: white;
+    cursor: not-allowed;
+  }
+  
+  .status-pending {
+    background-color: gray;
+  }
+  
+  .status-accepted {
+    background-color: green;
+  }
+  
+  .status-declined {
+    background-color: red;
+  }
+  
